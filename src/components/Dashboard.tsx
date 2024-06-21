@@ -47,8 +47,8 @@ const Dashboard = () => {
                   key={question}
                   className="el flex overflow-hidden bg-white rounded-lg flex-col justify-center items-center gap-6 border-2 border-slate-600 pt-10"
                 >
-                  <h1 className="text-7xl text-slate-700 font-semibold px-4">{question}</h1>
-                  <h3 className="text-6xl bg-slate-600 w-full text-center py-6 font-bold rounded-t-lg" key={i}>
+                  <h1 className="text-6xl text-slate-700 font-semibold px-4">{question}</h1>
+                  <h3 className="text-5xl bg-slate-600 w-full text-center py-6 font-bold rounded-t-lg" key={i}>
                     {boolArr[i]}
                   </h3>
                 </div>
